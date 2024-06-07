@@ -7,7 +7,6 @@
           <input
             type="text"
             placeholder="Email"
-            value="jorgegohelp@gmail.com"
             class="input"
             v-model="email"
           />
@@ -17,7 +16,6 @@
           <input
             type="password"
             placeholder="Password"
-            value="jorgegohelp"
             class="password"
             v-model="password"
           />
@@ -38,8 +36,8 @@ export default {
   name: "LoginBox",
   data() {
     return {
-      email: "",
-      password: "",
+      email: "jorgegohelp@gmail.com",
+      password: "jorgegohelp",
     };
   },
   methods: {
