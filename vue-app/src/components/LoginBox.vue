@@ -7,6 +7,7 @@
           <input
             type="text"
             placeholder="Email"
+            value="jorgegohelp@gmail.com"
             class="input"
             v-model="email"
           />
@@ -16,6 +17,7 @@
           <input
             type="password"
             placeholder="Password"
+            value="jorgegohelp"
             class="password"
             v-model="password"
           />
